@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Gabarito-bold';
+    src: url(../../Static/Fonts/Gabarito-Bold-BF651cdf1f430c1.ttf);
+}
+
+@font-face {
+    font-family: 'Gabarito';
+    src: url(../../Static/Fonts/Gabarito-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url(../../Static/Fonts/Fraunces-Italic-VariableFont.ttf);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    height: 472px;
+    margin-top: 20px;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0, .30);
+    border: 1px solid rgb(0, 0, 0, .20);
+    border-radius: 24px;
+}
+
+.default {
+    font-family: 'Gabarito';
+}
+
+.title {
+    font-family: 'Gabarito-Bold';
+    font-size: 16px;
+    color: rgba(0, 0, 0, .70);
+    margin-left: 16px;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    margin-top: 5px;
+}
+
+.subtitleLabel {
+    font-size: 12px;
+    margin-left: 16px;
+}
+
+.cientificName {
+    font-family: 'Fraunces';
+    font-size: 20px;
+    color: rgba(0, 0, 0, .50);
+}
+
+.indi {
+    font-family: 14px;
+    color: rgba(0, 0, 0, .50);
+    margin-left: 16px;
+    margin-bottom: 0;
+}
+
+.symptoms {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+    color: rgba(0, 0, 0, .70);
+}
+
+.symptom {
+    background-color: rgba(0, 0, 0, .10);
+    padding: 4px 8px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    border-radius: 20px;
+}
+
+.sugpul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 0;
+}
+
+.suglabel {
+    color: rgba(0, 0, 0, .50);
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.use {
+    background-color: rgba(0, 0, 0, .10);
+    padding: 4px 8px;
+    margin-top: 8px;
+    border-radius: 15px;
+    color: rgba(0, 0, 0, .70);
+}

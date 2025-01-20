@@ -1,4 +1,22 @@
-.header {
+@font-face {
+    font-family: 'Gabarito-Extra-Bold';
+    src: url(../../Static/Fonts/Gabarito-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Gabarito-Semi-Bold';
+    src: url(../../Static/Fonts/Gabarito-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Gabarito';
+    src: url(../../Static/Fonts/Gabarito-VariableFont_wght.ttf);
+}
+
+.containerHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #FFF;
     width: 100%;
     height: 80px;
@@ -7,13 +25,20 @@
     margin: 0;
 }
 
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
 .headerElements {
     margin-left: 42px;
+    display: flex;
 }
 
 .logo {
     margin-top: 28px;
     width: 32px;
+    height: 32px;
     animation: spin 3s linear 1;
     transform-origin: center;
 }
@@ -27,21 +52,59 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-
-  }
+}
 
 .green {
-    background-color: #4caf50; /* Verde */
+    background-color: #4caf50; 
     margin-left: 9px;
 }
   
 .blue {
-    background-color: #2196f3; /* Azul */
+    background-color: #2196f3; 
     margin-right: 4px;
 }
   
 .orange {
-    background-color: #ff9800; /* Laranja */
+    background-color: #ff9800; 
+}
+
+.title {
+    font-family: 'Gabarito-Extra-Bold';
+    font-size: 24px;
+    margin-left: 16px;
+    margin-right: 48px;
+}
+
+.option {
+    font-family: 'Gabarito-Semi-Bold';
+    font-size: 16px;
+    text-decoration: underline;
+    margin-right: 32px;
+    margin-top: 28px;
+}
+
+.searchBar {
+    width: 560px;
+    height: 56px;
+    margin-right: 42px;
+    margin-top: 8px;
+    border: #777 2px solid;
+    border-radius: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputSearchBar {
+    height: 30px;
+    width: 508px;
+    font-family: 'Gabarito';
+    font-size: 16px;
+    border: white;
+}
+
+input:focus {
+    outline:none;
 }
 
 @keyframes spin {

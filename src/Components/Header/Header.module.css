@@ -6,3 +6,49 @@
     box-shadow: #777 0px 4px 5px -4px;
     margin: 0;
 }
+
+.headerElements {
+    margin-left: 42px;
+}
+
+.logo {
+    margin-top: 28px;
+    width: 32px;
+    animation: spin 3s linear 1;
+    transform-origin: center;
+}
+
+.logoElements {
+    display: flex;
+    margin-top: 2px;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+
+  }
+
+.green {
+    background-color: #4caf50; /* Verde */
+    margin-left: 9px;
+}
+  
+.blue {
+    background-color: #2196f3; /* Azul */
+    margin-right: 4px;
+}
+  
+.orange {
+    background-color: #ff9800; /* Laranja */
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}

@@ -19,13 +19,13 @@
     display: flex;
     justify-content: space-between;
     font-family: 'Gabarito';
-    margin-left: 32px;
-    margin-right: 32px;
+    margin-left: 5vh;
+    margin-right: 5vh;
     margin-top: 32px;
 }
 
 .logofamviva {
-    margin-right: 24px;
+    margin-right: 2.5vh;
 }
 
 .middle {
@@ -39,14 +39,41 @@
     display: flex;
     font-family: 'Gabarito';
     font-size: 14px;
-    margin-left: 32px;
+    margin-left: 5vh;
     margin-top: 24px;
+}
+
+.downData {
+    display: flex;
 }
 
 .down img {
     margin-right: 12px;
+    width: 30px;
+    height: auto;
 }
 
 .down p {
     margin-right: 32px;
+}
+
+@media only screen and (max-width: 890px) {
+    .footer {
+        width: 99%;
+    }
+    .down {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .downData {
+        margin-bottom: 24px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .logofamviva {
+        margin-right: 0.5vh;
+    }
 }

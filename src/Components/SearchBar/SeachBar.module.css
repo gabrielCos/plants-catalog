@@ -1,0 +1,29 @@
+.searchBar {
+    width: 45%;
+    height: 56px;
+    margin-right: 42px;
+    margin-top: 8px;
+    border: #777 2px solid;
+    border-radius: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inputSearchBar {
+    height: 30px;
+    width: 90%;
+    font-family: 'Gabarito';
+    font-size: 16px;
+    border: white;
+}
+
+input:focus {
+    outline:none;
+}
+
+@media only screen and (max-width: 1280px) {
+    .searchBar {
+        display: none;
+    }
+}

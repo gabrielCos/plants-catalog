@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Header.module.css";
 
-import {SearchOutlined} from '@ant-design/icons'
+import SearchBar from "../SearchBar/SearchBar";
 
 const Header: React.FC = () => {
     return (
@@ -19,10 +19,7 @@ const Header: React.FC = () => {
                     <p className={styles.option}>Catálogo</p>
                     <p className={styles.option}>Sobre</p>
                 </div>
-                <div className={styles.searchBar}>
-                    <input type="text" name="search" placeholder="Pesquisse pelo nome ou uso da planta" className={styles.inputSearchBar} />
-                    <SearchOutlined style={{ color: '#777', fontSize: '24px'}}/>
-                </div>
+                <SearchBar />
             </div>
         </div>
     )

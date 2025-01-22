@@ -21,12 +21,18 @@ const Footer: React.FC = () => {
             </div>
             <div className={styles.middle} />
             <div className={styles.down}>
-                <img src={logoloca} />
-                <p>Campus do Pici - Bloco 941 - Fortaleza - CE - CEP 60.020-181</p>
-                <img src={logofone} />
-                <p>(85)3366-9418</p>
-                <img src={logomessage} />
-                <p>farmaciaviva@ufc.br</p>
+                <div className={styles.downData}>
+                    <img src={logoloca} />
+                    <p>Campus do Pici - Bloco 941 - Fortaleza - CE - CEP 60.020-181</p>
+                </div>
+                <div className={styles.downData}>
+                    <img src={logofone} />
+                    <p>(85)3366-9418</p>
+                </div>
+                <div className={styles.downData}>
+                    <img src={logomessage} />
+                    <p>farmaciaviva@ufc.br</p>
+                </div>
             </div>
         </div>
     )

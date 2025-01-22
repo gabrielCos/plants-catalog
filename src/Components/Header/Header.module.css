@@ -37,7 +37,7 @@
 
 .logo {
     margin-top: 28px;
-    width: 32px;
+    width: 5vh;
     height: 32px;
     animation: spin 3s linear 1;
     transform-origin: center;
@@ -71,7 +71,7 @@
 .title {
     font-family: 'Gabarito-Extra-Bold';
     font-size: 24px;
-    margin-left: 16px;
+    margin-left: 1vw;
     margin-right: 48px;
 }
 
@@ -83,35 +83,24 @@
     margin-top: 28px;
 }
 
-.searchBar {
-    width: 560px;
-    height: 56px;
-    margin-right: 42px;
-    margin-top: 8px;
-    border: #777 2px solid;
-    border-radius: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.inputSearchBar {
-    height: 30px;
-    width: 508px;
-    font-family: 'Gabarito';
-    font-size: 16px;
-    border: white;
-}
-
-input:focus {
-    outline:none;
-}
-
 @keyframes spin {
     from {
       transform: rotate(0deg);
     }
     to {
       transform: rotate(360deg);
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .title {
+        margin-left: 0.2vw;
+    }
+    .option {
+        display: none;
+    }
+    .containerHeader {
+        width: 99%;
+        align-items: center;
     }
 }

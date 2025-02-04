@@ -81,6 +81,7 @@
     text-decoration: underline;
     margin-right: 32px;
     margin-top: 28px;
+    cursor: pointer;
 }
 
 @keyframes spin {
@@ -103,4 +104,8 @@
         width: 99%;
         align-items: center;
     }
+}
+
+.option:hover {
+    color: #396FAC;
 }

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Gabarito-Semi-Bold';
+    src: url(../../Static/Fonts/Gabarito-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Gabarito-bold';
+    src: url(../../Static/Fonts/Gabarito-Bold-BF651cdf1f430c1.ttf);
+}
+
+@font-face {
+    font-family: 'Gabarito';
+    src: url(../../Static/Fonts/Gabarito-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url(../../Static/Fonts/Fraunces-Italic-VariableFont.ttf);
+}

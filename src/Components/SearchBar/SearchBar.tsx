@@ -1,8 +1,8 @@
 import React from "react";
 
-import styles from "./SeachBar.module.css"
+import styles from "./SeachBar.module.css";
 
-import {SearchOutlined} from '@ant-design/icons'
+import { SearchOutlined } from '@ant-design/icons';
 
 const SearchBar: React.FC = () => {
     return (

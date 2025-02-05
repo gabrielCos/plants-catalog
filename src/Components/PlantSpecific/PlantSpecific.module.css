@@ -17,3 +17,45 @@
     font-family: 'Fraunces';
     src: url(../../Static/Fonts/Fraunces-Italic-VariableFont.ttf);
 }
+
+.plantSpecifContainer {
+    display: flex;
+    margin-left: 42px;
+}
+
+.backButton {
+    border: none;
+    background-color: #D5DED3;
+    height: 56px;
+    width: 14vw;
+    margin: 32px 0px;
+    border-radius: 48px;
+    font-family: 'Gabarito';
+    font-size: 14px;
+    padding-right: 16px;
+    margin-left: 42px;
+    cursor: pointer;
+}
+
+.backButton span {
+    margin-left: 8px;
+}
+
+.columnOne {
+    display: flex;
+    flex-direction: column;
+}
+
+.plantName {
+    font-family: 'Gabarito-bold';
+    font-size: 32px;
+    margin: 0;
+    color: rgba(0,0,0, .7);
+}
+
+.scientificName {
+    font-family: 'Fraunces';
+    font-size: 32px;
+    color: rgba(0,0,0, .5);
+    margin-top: 16px;
+}

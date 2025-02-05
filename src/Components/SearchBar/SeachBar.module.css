@@ -22,6 +22,10 @@ input:focus {
     outline:none;
 }
 
+.searchBar:focus-within {
+    border: green 2px solid;
+}
+
 @media only screen and (max-width: 1280px) {
     .searchBar {
         display: none;

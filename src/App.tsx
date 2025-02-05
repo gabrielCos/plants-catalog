@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Catalog />
+      <PlantSpecific />
       <Footer />
     </div>
   );

@@ -21,6 +21,9 @@
 .plantSpecifContainer {
     display: flex;
     margin-left: 42px;
+    margin-right: 42px;
+    margin-bottom: 24px;
+    justify-content: space-between;
 }
 
 .backButton {
@@ -58,4 +61,45 @@
     font-size: 32px;
     color: rgba(0,0,0, .5);
     margin-top: 16px;
+}
+
+.columnOne img {
+    border-radius: 24px;
+}
+
+.indicationsLabel {
+    font-family: 'Gabarito';
+    color: rgba(0,0,0, .5);
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.indicationsContainer {
+    display: flex;
+    max-width: 486px;
+    flex-wrap: wrap;
+}
+
+.indications {
+    font-family: 'Gabarito-Semi-Bold';
+    color: #0E4904;
+    background-color: rgba(21, 128, 2, .15);
+    margin-right: 8px;
+    padding: 4px 8px;
+    border-radius: 20px;
+}
+
+.prepareContainer {
+    background-color: rgba(0,0,0, .1);
+    width: 42vw;
+    height: 388px;
+    border-radius: 24px;
+    margin: 0;
+}
+
+.instructions {
+    margin-left: 32px;
+}
+
+.instructionsLabel {
 }

@@ -89,17 +89,67 @@
     border-radius: 20px;
 }
 
+.columnTwo {
+    display: flex;
+    flex-direction: column;
+}
+
 .prepareContainer {
     background-color: rgba(0,0,0, .1);
     width: 42vw;
-    height: 388px;
+    height: auto;
     border-radius: 24px;
-    margin: 0;
+    margin-bottom: 16px;
 }
 
 .instructions {
-    margin-left: 32px;
+    margin: 32px 0 32px 32px ;
 }
 
 .instructionsLabel {
+    font-family: 'Gabarito';
+    font-size: 16px;
+    color: rgba(0,0,0, .5);
+}
+
+.instructionsTitle {
+    font-family: 'Gabarito-Semi-Bold';
+    font-size: 16px;
+    color: rgba(0,0,0, .7);
+}
+
+.ingredientsLable {
+    font-family: 'Gabarito-Semi-Bold';
+    font-size: 14px;
+    color: rgba(0,0,0, .7);
+    margin-bottom: 8px;
+}
+
+.ingredients {
+    margin: 0;
+    padding: 0;
+    padding-left: 16px;
+    font-family: 'Gabarito';
+    font-size: 14px;
+    color: rgba(0,0,0, .7);
+    margin-bottom: 24px;
+}
+
+.use {
+    font-family: 'Gabarito';
+    font-size: 14px;
+    color: rgba(0,0,0, .7);
+    margin-top: 16px;
+}
+
+.contraindicationLabel {
+    font-family: 'Gabarito-Semi-Bold';
+    font-size: 16px;
+    color: rgba(0,0,0, .7);
+}
+
+.contraindications {
+    font-family: 'Gabarito';
+    font-size: 14px;
+    color: rgba(0,0,0, .7);
 }

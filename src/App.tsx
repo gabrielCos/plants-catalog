@@ -12,10 +12,15 @@ import plant from './Interfaces/plant';
 
 const dummyDate: plant[] = [
   {
-    name: "chambá", scientificName: "Justicia pectoralis", symthons: ["bronquite", "tosse", "Crises de Asma", "Chiado no Peito"],
-    prepareMode: "chá", partUsed: "folhas", howToPrepare: ["1 copo de água fervida ou filtrada", "1 xíxara e meia de folhas de chambá (bem lavadas e cortadas em pedaços)"],
+    name: "Chambá",
+    scientificName: "Justicia pectoralis",
+    symthons: ["Crises de asma", "tosse", "bronquite", "chiado no peito"],
+    prepareMode: "Chá",
+    partUsed: "Planta",
+    Ingridients: ["1 copo de água fervida ou filtrada", "1 xíxara e meia de folhas de chambá (bem lavadas e cortadas em pedaços)"],
+    HowToDo: ["Cozinhe as folhas até que exalem um aroma parecido com o do cumaru.", "Em seguida, coe as folhas e reserve o chá em um recipiente."],
     useRecomendation: "Consumir o chá 2x ao dia e manter o tratamento durante 1 semana",
-    contraindication: "Crianças menores de 6 anos, Gestantes, Lactantes"
+    contraindication: ["Crianças menores de 6 anos, Gestantes, Lactantes.", "Não deve ser usada conjuntamente com anticoagulantes ou em pacientes com transtornos circulatórios"]
   }
 ];
 

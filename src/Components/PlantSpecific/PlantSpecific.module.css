@@ -20,9 +20,7 @@
 
 .plantSpecifContainer {
     display: flex;
-    margin-left: 42px;
-    margin-right: 42px;
-    margin-bottom: 24px;
+    margin: 0 24px 42px 42px;
     justify-content: space-between;
 }
 
@@ -30,7 +28,7 @@
     border: none;
     background-color: #D5DED3;
     height: 56px;
-    width: 14vw;
+    width: 218px;
     margin: 32px 0px;
     border-radius: 48px;
     font-family: 'Gabarito';
@@ -152,4 +150,16 @@
     font-family: 'Gabarito';
     font-size: 14px;
     color: rgba(0,0,0, .7);
+}
+
+@media only screen and (max-width: 1280px) {
+    .plantSpecifContainer {
+        flex-direction: column;
+        margin: 0 24px 42px 42px;
+        justify-content: center;
+    }
+    .prepareContainer {
+        width: 100%;
+    }
+    
 }

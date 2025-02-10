@@ -5,17 +5,20 @@ import SearchBar from "../SearchBar/SearchBar";
 
 import styles from "./Catalog.module.css";
 
+import Plant from "../../Interfaces/plant";
+
+interface CatalogProps {
+    plants: Plant[];
+}
+  
 
 
-const Catalog: React.FC = () => {
+const Catalog: React.FC<CatalogProps> = ({plants}) => {
     return (
         <div className={styles.catalog}>
-            <CatalogItem />
-            <CatalogItem />
-            <CatalogItem />
-            <CatalogItem />
-            <CatalogItem />
-            <CatalogItem />
+            {plants.map((plant, index) => (
+                <CatalogItem key={index} plant={plant} />
+            ))}
        </div>
     )
 }

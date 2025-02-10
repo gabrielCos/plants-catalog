@@ -12,9 +12,9 @@ import plant from './Interfaces/plant';
 
 const dummyDate: plant[] = [
   {
-    name: "Chambá",
+    name: "Chambá (Anador, Trevo-Cumaru)",
     scientificName: "Justicia pectoralis",
-    symthons: ["Crises de asma", "tosse", "bronquite", "chiado no peito"],
+    symthons: ["Crises de asma", "Tosse", "Bronquite", "Chiado no peito"],
     prepareMode: "Chá",
     partUsed: "Planta",
     Ingridients: ["1 copo de água fervida ou filtrada", "1 xíxara e meia de folhas de chambá (bem lavadas e cortadas em pedaços)"],
@@ -30,7 +30,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <PlantSpecific />
+      <Catalog plants={dummyDate} />
       <Footer />
     </div>
   );

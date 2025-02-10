@@ -1,13 +1,13 @@
 interface plant {
-    name: String;
-    scientificName: String; 
-    symthons: String[];
-    prepareMode: String;
-    partUsed: String;
-    Ingridients: String[];
-    HowToDo: String[];
-    useRecomendation: String;
-    contraindication: String[]
+    name: string;
+    scientificName: string; 
+    symthons: string[];
+    prepareMode: string;
+    partUsed: string;
+    Ingridients: string[];
+    HowToDo: string[];
+    useRecomendation: string;
+    contraindication: string[]
 }
 
 export default plant;

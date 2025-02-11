@@ -1,8 +1,7 @@
 .searchBar {
     width: 45%;
     height: 56px;
-    margin-right: 42px;
-    margin-top: 8px;
+    margin: 8px 42px 8px 0;
     border: #777 2px solid;
     border-radius: 48px;
     display: flex;
@@ -16,6 +15,7 @@
     font-family: 'Gabarito';
     font-size: 16px;
     border: white;
+    background-color: rgba(255, 255, 255, 0.0);
 }
 
 input:focus {
@@ -28,6 +28,7 @@ input:focus {
 
 @media only screen and (max-width: 1280px) {
     .searchBar {
-        display: none;
+        width: 80%;
+        margin: 8px 0 8px 0;
     }
 }

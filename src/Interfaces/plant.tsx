@@ -1,7 +1,7 @@
 interface plant {
     name: string;
     scientificName: string; 
-    symthons: string[];
+    symthoms: string[];
     prepareMode: string;
     partUsed: string;
     Ingridients: string[];

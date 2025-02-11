@@ -18,7 +18,7 @@ const CatalogItem: React.FC<PlantProps> = ({ plant }) => {
             <img src={placeholder} />
             <p className={`${styles.default} ${styles.indi}`}>Indicação</p>
             <div className={`${styles.default} ${styles.symptoms}`}>
-                {plant.symthons.map((item, index) => (<span className={styles.symptom} key={index}>{item}</span>))}
+                {plant.symthoms.map((item, index) => (<span className={styles.symptom} key={index}>{item}</span>))}
             </div>
             <div className={`${styles.default} ${styles.sugpul}`}>
                 <div>

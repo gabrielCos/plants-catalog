@@ -1,7 +1,6 @@
 import React from "react";
 
 import CatalogItem from "../CatalogItem/CatalogItem";
-import SearchBar from "../SearchBar/SearchBar";
 
 import styles from "./Catalog.module.css";
 
@@ -9,14 +8,21 @@ import Plant from "../../Interfaces/plant";
 
 interface CatalogProps {
     plants: Plant[];
+    searchTerm: String;
 }
-  
 
+const Catalog: React.FC<CatalogProps> = ({ plants, searchTerm }) => {
+    const lowerCaseSearch = searchTerm.toLowerCase();
 
-const Catalog: React.FC<CatalogProps> = ({plants}) => {
+    const filteredPlants = plants.filter(
+        (plant) => 
+            plant.name.toLocaleLowerCase().includes(lowerCaseSearch) ||
+            plant.symthoms.some(symthom => symthom.toLowerCase().includes(lowerCaseSearch))
+    );
+
     return (
         <div className={styles.catalog}>
-            {plants.map((plant, index) => (
+            {filteredPlants.map((plant, index) => (
                 <CatalogItem key={index} plant={plant} />
             ))}
        </div>

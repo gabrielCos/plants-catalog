@@ -6,7 +6,6 @@ import styles from "./PlantSpecific.module.css";
 import plantSpecific from "../../Static/Images/plantSpecific.png"
 
 import dummyData from "../../Data/Data";
-import plant from "../../Interfaces/plant";
 
 import { ArrowLeftOutlined } from '@ant-design/icons';
 

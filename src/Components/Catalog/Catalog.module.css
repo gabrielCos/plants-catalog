@@ -13,6 +13,16 @@
     margin-bottom: 20px;
 }
 
+.empity {
+  height: 1000px;
+}
+
+.empity p{
+  font-family: 'Gabarito';
+  font-size: 24px;
+  color: red;
+}
+
 .loadMoreButton {
   border: none;
     background-color: #D5DED3;

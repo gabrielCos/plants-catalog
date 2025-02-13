@@ -37,6 +37,11 @@ const Catalog: React.FC<CatalogProps> = ({ plants, searchTerm }) => {
                     Carregar Mais
                 </button>
             )}
+            {filteredPlants.length === 0 && (
+                <div className={styles.empity}>
+                    <p>Planta não encontrada!</p>
+                </div>
+            )}
        </div>
     )
 }

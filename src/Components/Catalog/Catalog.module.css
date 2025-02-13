@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Gabarito';
+  src: url(../../Static/Fonts/Gabarito-VariableFont_wght.ttf);
+}
+
 .catalog {
     display: flex;
     flex-wrap: wrap;
@@ -6,6 +11,19 @@
     margin-left: 2vw;
     margin-right: 2vw;
     margin-bottom: 20px;
+}
+
+.loadMoreButton {
+  border: none;
+    background-color: #D5DED3;
+    height: 56px;
+    width: 218px;
+    margin: 32px 0px;
+    border-radius: 48px;
+    font-family: 'Gabarito';
+    font-size: 18px;
+    padding-right: 16px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 820px) {

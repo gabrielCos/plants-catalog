@@ -93,6 +93,13 @@
     }
 }
 
+.menuIcon {
+    position: absolute;
+    right: 0;
+    margin-right: 10vw;
+    margin-top: 28px;
+}
+
 @media only screen and (max-width: 1280px) {
     .title {
         margin-left: 0.2vw;

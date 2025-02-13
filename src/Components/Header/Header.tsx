@@ -4,6 +4,9 @@ import { useNavigate } from "react-router-dom";
 import styles from "./Header.module.css";
 
 import SearchBar from "../SearchBar/SearchBar";
+import MenuMobile from "../MenuMobile/MenuMobile";
+
+import { MenuOutlined } from '@ant-design/icons';
 
 interface HeaderProps {
     onSearch: (searchTerm: string) => void;
@@ -12,6 +15,7 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ onSearch }) => {
     const [isMobile, setIsMobile] = useState(window.innerWidth < 1280);
+    const [showMenu, setShowMenu] = useState(false);
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -19,7 +23,15 @@ const Header: React.FC<HeaderProps> = ({ onSearch }) => {
         window.addEventListener("resize", handleResize);
 
         return () => window.removeEventListener("resize", handleResize);
-    }, [] )
+    }, [])
+    
+    const handleMenuMobile = () => {
+        if (showMenu == false) {
+            setShowMenu(true);
+        } else {
+            setShowMenu(false);
+        }
+    }
 
     return (
         <>
@@ -38,6 +50,8 @@ const Header: React.FC<HeaderProps> = ({ onSearch }) => {
                         <p className={styles.option}>Sobre</p>
                     </div>
                     {!isMobile && <SearchBar onSearch={onSearch} />}
+                    {isMobile && <MenuOutlined className={styles.menuIcon} onClick={handleMenuMobile}/>}
+                    {showMenu && <MenuMobile />}
                 </div>
             </div>
             {isMobile && <SearchBar onSearch={onSearch} />}

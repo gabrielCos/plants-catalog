@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 import styles from "./CatalogItem.module.css";
 
@@ -11,8 +12,14 @@ interface PlantProps {
 }
 
 const CatalogItem: React.FC<PlantProps> = ({ plant }) => {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+        navigate(`/plant/${encodeURIComponent(plant.name)}`);
+    };
+
     return (
-        <div className={styles.card}>
+        <div className={styles.card} onClick={handleClick}>
             <p className={styles.title}>{plant.name}</p>
             <p className={styles.subtitle}><span className={`${styles.default} ${styles.subtitleLabel}`}>Nome Científico: </span> <span className={styles.cientificName}>{plant.scientificName}</span></p>
             <img src={placeholder} />

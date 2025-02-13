@@ -14,6 +14,8 @@ interface CatalogProps {
 const Catalog: React.FC<CatalogProps> = ({ plants, searchTerm }) => {
     const lowerCaseSearch = searchTerm.toLowerCase();
 
+
+
     const filteredPlants = plants.filter(
         (plant) => 
             plant.name.toLocaleLowerCase().includes(lowerCaseSearch) ||

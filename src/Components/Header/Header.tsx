@@ -1,4 +1,6 @@
-import React, {useState, useEffect} from "react";
+import React, { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+
 import styles from "./Header.module.css";
 
 import SearchBar from "../SearchBar/SearchBar";
@@ -10,6 +12,7 @@ interface HeaderProps {
 
 const Header: React.FC<HeaderProps> = ({ onSearch }) => {
     const [isMobile, setIsMobile] = useState(window.innerWidth < 1280);
+    const navigate = useNavigate();
 
     useEffect(() => {
         const handleResize = () => setIsMobile(window.innerWidth < 1280);
@@ -31,7 +34,7 @@ const Header: React.FC<HeaderProps> = ({ onSearch }) => {
                             </div>
                         </div>
                         <p className={styles.title}>Catálogo Farmácia Viva </p>
-                        <p className={styles.option}>Catálogo</p>
+                        <p className={styles.option} onClick={() => navigate("/")}>Catálogo</p>
                         <p className={styles.option}>Sobre</p>
                     </div>
                     {!isMobile && <SearchBar onSearch={onSearch} />}

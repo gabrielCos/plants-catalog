@@ -23,15 +23,22 @@
   color: red;
 }
 
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .loadMoreButton {
   border: none;
-    background-color: #D5DED3;
+    background-color: #158002;
     height: 56px;
     width: 218px;
     margin: 32px 0px;
     border-radius: 48px;
     font-family: 'Gabarito';
     font-size: 18px;
+    color: white;
     padding-right: 16px;
     cursor: pointer;
 }

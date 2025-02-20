@@ -27,22 +27,27 @@ const Catalog: React.FC<CatalogProps> = ({ plants, searchTerm }) => {
     );
 
     return (
-        <div className={styles.catalog}>
-            {filteredPlants.slice(0,visibleCount).map((plant, index) => (
-                <CatalogItem key={index} plant={plant} />
-            ))}
+        <div>
+            <div className={styles.catalog}>
+                {filteredPlants.slice(0,visibleCount).map((plant, index) => (
+                    <CatalogItem key={index} plant={plant} />
+                ))}
 
-            {visibleCount < filteredPlants.length && (
-                <button onClick={loadMore} className={styles.loadMoreButton}>
-                    Carregar Mais
-                </button>
-            )}
-            {filteredPlants.length === 0 && (
-                <div className={styles.empity}>
-                    <p>Planta não encontrada!</p>
-                </div>
-            )}
-       </div>
+                
+                {filteredPlants.length === 0 && (
+                    <div className={styles.empity}>
+                        <p>Planta não encontrada!</p>
+                    </div>
+                )}
+            </div>
+            <div className={styles.buttonContainer}>
+                {visibleCount < filteredPlants.length && (
+                        <button onClick={loadMore} className={styles.loadMoreButton}>
+                            Carregar Mais
+                        </button>
+                    )}
+            </div>
+        </div>
     )
 }
 

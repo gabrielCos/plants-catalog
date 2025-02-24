@@ -25,7 +25,7 @@ const PlantSpecific: React.FC = () => {
                 <div className={styles.columnOne}>
                     <p className={styles.plantName}>{ plant?.name}</p>
                     <p className={styles.scientificName}>{plant?.scientificName}</p>
-                    <img src={plantSpecific} />
+                    <img src={plantSpecific} alt="planta"/>
                     <p className={styles.indicationsLabel}>Indicação</p>
                     <div className={styles.indicationsContainer}>
                         {plant?.symthoms.map((symptom, index) => (

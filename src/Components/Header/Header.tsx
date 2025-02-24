@@ -26,8 +26,8 @@ const Header: React.FC<HeaderProps> = ({ onSearch }) => {
     }, [])
     
     const handleMenuMobile = () => {
-        if (showMenu == false) {
-            setShowMenu(true);
+        if (showMenu === false) {
+            setShowMenu(true);  
         } else {
             setShowMenu(false);
         }

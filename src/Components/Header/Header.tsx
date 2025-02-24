@@ -45,7 +45,7 @@ const Header: React.FC<HeaderProps> = ({ onSearch }) => {
                                 <div className={`${styles.circle} ${styles.orange}`}></div>
                             </div>
                         </div>
-                        <p className={styles.title}>Catálogo Farmácia Viva </p>
+                        <p className={styles.title}>Herbarium Digital </p>
                         <p className={styles.option} onClick={() => navigate("/")}>Catálogo</p>
                         <p className={styles.option}>Sobre</p>
                     </div>

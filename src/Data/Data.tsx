@@ -14,8 +14,8 @@ const dummyDate: plant[] = [
     },
     {
       name: "Boldo",
-      scientificName: "Justicia pectoralis",
-      symthoms: ["Crises de asma", "Tosse", "Bronquite", "Chiado no peito"],
+      scientificName: "Peumus boldus",
+      symthoms: ["Intolerância alimentar", "Bactérias", "Anti oxidante", "Calmante"],
       prepareMode: "Chá",
       partUsed: "Planta",
       Ingridients: ["1 copo de água fervida ou filtrada", "1 xíxara e meia de folhas de chambá (bem lavadas e cortadas em pedaços)"],
@@ -25,8 +25,8 @@ const dummyDate: plant[] = [
     },
     {
       name: "Arruda",
-      scientificName: "Justicia pectoralis",
-      symthoms: ["Crises de asma", "Sangramento", "Bronquite", "Chiado no peito"],
+      scientificName: "Ruta graveolens",
+      symthoms: ["Combater sarnas ou piolhos", "Aliviar dores", "Bronquite", "Chiado no peito"],
       prepareMode: "Chá",
       partUsed: "Planta",
       Ingridients: ["1 copo de água fervida ou filtrada", "1 xíxara e meia de folhas de chambá (bem lavadas e cortadas em pedaços)"],
@@ -35,9 +35,9 @@ const dummyDate: plant[] = [
       contraindication: ["Crianças menores de 6 anos, Gestantes, Lactantes.", "Não deve ser usada conjuntamente com anticoagulantes ou em pacientes com transtornos circulatórios"]
     },
     {
-      name: "Xibil",
-      scientificName: "Justicia pectoralis",
-      symthoms: ["Crises de asma", "Sangramento", "Bronquite", "Chiado no peito"],
+      name: "Gengibre",
+      scientificName: "Zingiber officinale",
+      symthoms: ["Nauseas", "Vômitos", "indigestão", "Gripes"],
       prepareMode: "Chá",
       partUsed: "Planta",
       Ingridients: ["1 copo de água fervida ou filtrada", "1 xíxara e meia de folhas de chambá (bem lavadas e cortadas em pedaços)"],
@@ -46,9 +46,9 @@ const dummyDate: plant[] = [
       contraindication: ["Crianças menores de 6 anos, Gestantes, Lactantes.", "Não deve ser usada conjuntamente com anticoagulantes ou em pacientes com transtornos circulatórios"]
   },
   {
-    name: "Cariatã",
-    scientificName: "Justicia pectoralis",
-    symthoms: ["Crises de asma", "Sangramento", "Bronquite", "Chiado no peito"],
+    name: "Alecrim",
+    scientificName: "Salvia rosmarinus",
+    symthoms: ["Dores de cabeça", "Cansaço", "Digestão", "Pressão arterial"],
     prepareMode: "Chá",
     partUsed: "Planta",
     Ingridients: ["1 copo de água fervida ou filtrada", "1 xíxara e meia de folhas de chambá (bem lavadas e cortadas em pedaços)"],
@@ -57,9 +57,9 @@ const dummyDate: plant[] = [
     contraindication: ["Crianças menores de 6 anos, Gestantes, Lactantes.", "Não deve ser usada conjuntamente com anticoagulantes ou em pacientes com transtornos circulatórios"]
   },
   {
-    name: "Manjá",
+    name: "Camomila",
     scientificName: "Justicia pectoralis",
-    symthoms: ["Crises de asma", "Sangramento", "Bronquite", "Chiado no peito"],
+    symthoms: ["Inflamações", "Insônia", "Ansiedade", "Depressão"],
     prepareMode: "Chá",
     partUsed: "Planta",
     Ingridients: ["1 copo de água fervida ou filtrada", "1 xíxara e meia de folhas de chambá (bem lavadas e cortadas em pedaços)"],
@@ -68,9 +68,9 @@ const dummyDate: plant[] = [
     contraindication: ["Crianças menores de 6 anos, Gestantes, Lactantes.", "Não deve ser usada conjuntamente com anticoagulantes ou em pacientes com transtornos circulatórios"]
   },
   {
-    name: "Cururu",
-    scientificName: "Justicia pectoralis",
-    symthoms: ["Crises de asma", "Sangramento", "Bronquite", "Chiado no peito"],
+    name: "Hortelã",
+    scientificName: "Mentha spicata",
+    symthoms: ["Inflamações", "Digestão", "Gripe", "Dor de Cabeça"],
     prepareMode: "Chá",
     partUsed: "Planta",
     Ingridients: ["1 copo de água fervida ou filtrada", "1 xíxara e meia de folhas de chambá (bem lavadas e cortadas em pedaços)"],

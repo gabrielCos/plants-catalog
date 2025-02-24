@@ -24,7 +24,7 @@ const Catalog: React.FC<CatalogProps> = ({ plants, searchTerm }) => {
         (plant) => 
             plant.name.toLocaleLowerCase().includes(lowerCaseSearch) ||
             plant.symthoms.some(symthom => symthom.toLowerCase().includes(lowerCaseSearch))
-    );
+    ).sort((a,b) => a.name.localeCompare(b.name));
 
     return (
         <div>

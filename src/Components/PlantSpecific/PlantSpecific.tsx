@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 
 import styles from "./PlantSpecific.module.css";
 
-import plantSpecific from "../../Static/Images/plantSpecific.png"
+import placeholder from "../../Static/Images/plantSpecific.png"
 
 import dummyData from "../../Data/Data";
 
@@ -15,6 +15,18 @@ const PlantSpecific: React.FC = () => {
 
     const plant = dummyData.find((p) => p.name === decodeURIComponent(plantName || ""));
 
+    const getImagePath = (name: String | undefined) => {
+        if (!name) return placeholder;
+
+        const formattedName = name.replace(/\s+/g, '_').toLocaleLowerCase();
+
+        try {
+                return require(`../../Static/Images/${formattedName}.jpg`)
+        } catch (error) {
+                return placeholder;
+        }
+    }
+
     return (
         <div>
             <button className={styles.backButton} onClick={() => navigate("/")}>
@@ -25,7 +37,7 @@ const PlantSpecific: React.FC = () => {
                 <div className={styles.columnOne}>
                     <p className={styles.plantName}>{ plant?.name}</p>
                     <p className={styles.scientificName}>{plant?.scientificName}</p>
-                    <img src={plantSpecific} alt="planta"/>
+                    <img className={styles.imagePlant} src={getImagePath(plant?.name)} alt={`Imagem de ${plant?.name}`}/>
                     <p className={styles.indicationsLabel}>Indicação</p>
                     <div className={styles.indicationsContainer}>
                         {plant?.symthoms.map((symptom, index) => (

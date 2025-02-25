@@ -22,7 +22,11 @@ const CatalogItem: React.FC<PlantProps> = ({ plant }) => {
         try {
             return require(`../../Static/Images/${plantName.replace(/\s+/g, '_').toLocaleLowerCase()}.jpg`)
         } catch (error) {
-            return placeholder;
+            try {
+                return require(`../../Static/Images/${plantName.replace(/\s+/g, '_').toLocaleLowerCase()}.png`)
+            } catch (error) {
+                return placeholder;
+            }
         }
     }
 

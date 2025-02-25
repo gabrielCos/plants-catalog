@@ -23,7 +23,11 @@ const PlantSpecific: React.FC = () => {
         try {
                 return require(`../../Static/Images/${formattedName}.jpg`)
         } catch (error) {
-                return placeholder;
+            try {
+                return require(`../../Static/Images/${formattedName}.png`)
+            } catch (error) {
+                return placeholder
+            };
         }
     }
 

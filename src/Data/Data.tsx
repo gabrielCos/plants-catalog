@@ -1,7 +1,24 @@
-import plant from "../Interfaces/plant";
+import { collection, getDocs } from "firebase/firestore";
+import db from "../firebase";
 
-const dummyDate: plant[] = [
-    {
+import Plant from "../Interfaces/plant";
+
+const getPlants = async (): Promise<Plant[]> => {
+  try {
+    const querySnapshot = await getDocs(collection(db, "plants"));
+    const plantsList = querySnapshot.docs.map(doc => ({
+      id: doc.id,
+      ...doc.data()
+    })) as Plant[];
+    return plantsList;
+  } catch (error) {
+    console.error("Erro ao buscar plantas:", error)
+    return [];
+  }
+}
+
+/* const dummyDate: plant[] = [
+   {
       name: "Chambá",
       scientificName: "Justicia pectoralis",
       symthoms: ["Crises de asma", "Tosse", "Bronquite", "Chiado no peito"],
@@ -79,6 +96,6 @@ const dummyDate: plant[] = [
     contraindication: ["Crianças menores de 6 anos, Gestantes, Lactantes.", "Não deve ser usada conjuntamente com anticoagulantes ou em pacientes com transtornos circulatórios"]
   },
     
-];
+];*/
   
-export default dummyDate;
+export default getPlants;

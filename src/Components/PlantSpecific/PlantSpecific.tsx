@@ -1,11 +1,11 @@
-import React from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import React, {useState, useEffect} from "react";
+import { useNavigate, useParams, } from "react-router-dom";
 
 import styles from "./PlantSpecific.module.css";
 
 import placeholder from "../../Static/Images/plantSpecific.png"
 
-import dummyData from "../../Data/Data";
+import getPlants from "../../Data/Data";
 
 import { ArrowLeftOutlined } from '@ant-design/icons';
 
@@ -13,7 +13,17 @@ const PlantSpecific: React.FC = () => {
     const { plantName } = useParams<{ plantName: string }>();
     const navigate = useNavigate();
 
-    const plant = dummyData.find((p) => p.name === decodeURIComponent(plantName || ""));
+    const [plants, setPlants] = useState<any[]>([]);
+
+    useEffect(() => {
+        const fetchPlants = async () => {
+            const data = await getPlants(); 
+            setPlants(data); 
+        };
+        fetchPlants();
+    }, []);
+
+    const plant = plants.find((p) => p.name === decodeURIComponent(plantName || ""));
 
     const getImagePath = (name: String | undefined) => {
         if (!name) return placeholder;
@@ -31,6 +41,10 @@ const PlantSpecific: React.FC = () => {
         }
     }
 
+    if (!plant) {
+        return <p>Planta não encontrada</p>;  
+    }
+
     return (
         <div>
             <button className={styles.backButton} onClick={() => navigate("/")}>
@@ -44,7 +58,7 @@ const PlantSpecific: React.FC = () => {
                     <img className={styles.imagePlant} src={getImagePath(plant?.name)} alt={`Imagem de ${plant?.name}`}/>
                     <p className={styles.indicationsLabel}>Indicação</p>
                     <div className={styles.indicationsContainer}>
-                        {plant?.symthoms.map((symptom, index) => (
+                        {plant?.symthoms.map((symptom: string, index:number) => (
                             <p key={index} className={styles.indications}>{symptom}</p>
                         ))}
                     </div>
@@ -56,13 +70,13 @@ const PlantSpecific: React.FC = () => {
                             <p className={styles.instructionsTitle}>{plant?.prepareMode} de {plant?.name}</p>
                             <p className={styles.ingredientsLable}>Ingredientes:</p>
                             <ul className={styles.ingredients}>
-                                {plant?.Ingridients.map((ingrient, index) => (
+                                {plant?.Ingridients.map((ingrient: string, index: number) => (
                                     <li key={index}>{ingrient}</li>
                                 ))}
                             </ul>
                             <p className={styles.ingredientsLable}>Passos:</p>
                             <ol className={styles.ingredients}>
-                                {plant?.HowToDo.map((step, index) => (
+                                {plant?.HowToDo.map((step: string, index: number) => (
                                     <li key={index}>{step}</li>
                                 ))}
                             </ol>
@@ -73,7 +87,7 @@ const PlantSpecific: React.FC = () => {
                     <div className={styles.prepareContainer}>
                         <div className={styles.instructions}>
                             <p className={styles.contraindicationLabel}>Contra indicações</p>
-                            {plant?.contraindication.map((item, index) => (
+                            {plant?.contraindication.map((item: string, index:number) => (
                                 <p key={index} className={styles.contraindications}>{item}</p>
                             ))}
                         </div>

@@ -1,4 +1,5 @@
 interface plant {
+    id: string;
     name: string;
     scientificName: string; 
     symthoms: string[];

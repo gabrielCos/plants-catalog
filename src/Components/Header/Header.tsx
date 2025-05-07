@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation  } from "react-router-dom";
 
 import styles from "./Header.module.css";
 
@@ -33,6 +33,9 @@ const Header: React.FC<HeaderProps> = ({ onSearch }) => {
         }
     }
 
+    const location = useLocation();
+    const isHomePage = location.pathname === "/";
+
     return (
         <>
             <div className={styles.containerHeader}>
@@ -54,7 +57,7 @@ const Header: React.FC<HeaderProps> = ({ onSearch }) => {
                     {showMenu && <MenuMobile />}
                 </div>
             </div>
-            {isMobile && <SearchBar onSearch={onSearch} />}
+            {isMobile && isHomePage && <SearchBar onSearch={onSearch} />}
         </>
     )
 }

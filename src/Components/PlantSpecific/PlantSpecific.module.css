@@ -63,7 +63,7 @@
 
 .columnOne img {
     border-radius: 24px;
-    width: 486px;
+    width: 35vw;
     height: 320px;
 }
 
@@ -155,6 +155,9 @@
 }
 
 @media only screen and (max-width: 1280px) {
+    .columnOne img {
+        width: 80vw;
+    }
     .plantSpecifContainer {
         flex-direction: column;
         margin: 0 24px 42px 42px;

@@ -3,8 +3,6 @@ import { useNavigate, useParams, } from "react-router-dom";
 
 import styles from "./PlantSpecific.module.css";
 
-import placeholder from "../../Static/Images/Plantas-Horto/0placeholder.png";
-
 import getPlants from "../../Data/Data";
 
 import { ArrowLeftOutlined } from '@ant-design/icons';

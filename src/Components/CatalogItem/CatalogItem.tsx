@@ -3,8 +3,6 @@ import { useNavigate } from "react-router-dom";
 
 import styles from "./CatalogItem.module.css";
 
-import placeholder from "../../Static/Images/Plantas-Horto/0placeholder.png";
-
 import Plant from "../../Interfaces/plant";
 
 interface PlantProps {

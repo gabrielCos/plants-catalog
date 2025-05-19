@@ -20,10 +20,10 @@ const CatalogItem: React.FC<PlantProps> = ({ plant }) => {
 
     const getImagePath = (plantName: String) => {
         try {
-            return require(`../../Static/Images/${plantName.replace(/\s+/g, '_').toLocaleLowerCase()}.jpg`)
+            return require(`../../Static/Images/Plantas-Horto/${plantName.replace(/\s+/g, '_').toLocaleLowerCase()}.jpg`)
         } catch (error) {
             try {
-                return require(`../../Static/Images/${plantName.replace(/\s+/g, '_').toLocaleLowerCase()}.png`)
+                return require(`../../Static/Images/Plantas-Horto/${plantName.replace(/\s+/g, '_').toLocaleLowerCase()}.png`)
             } catch (error) {
                 return placeholder;
             }

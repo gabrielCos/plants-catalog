@@ -3,7 +3,7 @@ import { useNavigate, useParams, } from "react-router-dom";
 
 import styles from "./PlantSpecific.module.css";
 
-import placeholder from "../../Static/Images/plantSpecific.png"
+import placeholder from "../../Static/Images/Plantas-Horto/0placeholder.png";
 
 import getPlants from "../../Data/Data";
 
@@ -26,19 +26,9 @@ const PlantSpecific: React.FC = () => {
     const plant = plants.find((p) => p.name === decodeURIComponent(plantName || ""));
 
     const getImagePath = (name: String | undefined) => {
-        if (!name) return placeholder;
-
-        const formattedName = name.replace(/\s+/g, '_').toLocaleLowerCase();
-
-        try {
-                return require(`../../Static/Images/${formattedName}.jpg`)
-        } catch (error) {
-            try {
-                return require(`../../Static/Images/${formattedName}.png`)
-            } catch (error) {
-                return placeholder
-            };
-        }
+        if (!name) return "/images/Plantas-Horto/0placeholder.png";
+        const formattedName = name.replace(/\s+/g, "_").toLowerCase();
+        return `/images/Plantas-Horto/${formattedName}.jpg`;
     }
 
     if (!plant) {
@@ -55,7 +45,19 @@ const PlantSpecific: React.FC = () => {
                 <div className={styles.columnOne}>
                     <p className={styles.plantName}>{ plant?.name}</p>
                     <p className={styles.scientificName}>{plant?.scientificName}</p>
-                    <img className={styles.imagePlant} src={getImagePath(plant?.name)} alt={`Imagem de ${plant?.name}`}/>
+                    <img className={styles.imagePlant}
+                        src={getImagePath(plant?.name)}
+                        alt={`Imagem de ${plant?.name}`}
+                        onError={(e) => {
+                            const target = e.currentTarget;
+                            if (target.src.endsWith(".jpg")) {
+                                target.src = target.src.replace(".jpg", ".png");
+                            } else {
+                                target.onerror = null; 
+                            target.src = "/images/Plantas-Horto/0placeholder.png";
+                            }
+                        }}
+                    />
                     <p className={styles.indicationsLabel}>Indicação</p>
                     <div className={styles.indicationsContainer}>
                         {plant?.symthoms.map((symptom: string, index:number) => (

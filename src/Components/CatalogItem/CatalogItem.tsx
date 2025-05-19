@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 import styles from "./CatalogItem.module.css";
 
-import placeholder from "../../Static/Images/plantSpecific.png";
+import placeholder from "../../Static/Images/Plantas-Horto/0placeholder.png";
 
 import Plant from "../../Interfaces/plant";
 
@@ -18,23 +18,28 @@ const CatalogItem: React.FC<PlantProps> = ({ plant }) => {
         navigate(`/plant/${encodeURIComponent(plant.name)}`);
     };
 
-    const getImagePath = (plantName: String) => {
-        try {
-            return require(`../../Static/Images/Plantas-Horto/${plantName.replace(/\s+/g, '_').toLocaleLowerCase()}.jpg`)
-        } catch (error) {
-            try {
-                return require(`../../Static/Images/Plantas-Horto/${plantName.replace(/\s+/g, '_').toLocaleLowerCase()}.png`)
-            } catch (error) {
-                return placeholder;
-            }
-        }
+    const getImagePath = (plantName: String | undefined) => {
+        if (!plantName) return "../images/Plantas-Horto/0placeholder.png";
+        const formattedName = plantName.replace(/\s+/g, "_").toLowerCase();
+        return `/images/Plantas-Horto/${formattedName}.jpg`;
     }
 
     return (
         <div className={styles.card} onClick={handleClick}>
             <p className={styles.title}>{plant.name}</p>
             <p className={styles.subtitle}><span className={`${styles.default} ${styles.subtitleLabel}`}>Nome Científico: </span> <span className={styles.cientificName}>{plant.scientificName}</span></p>
-            <img src={getImagePath(plant.name)} alt={`Imagem de ${plant.name}`} />
+            <img src={getImagePath(plant.name)}
+                alt={`Imagem de ${plant.name}`}
+                onError={(e) => {
+                    const target = e.currentTarget;
+                    if (target.src.endsWith(".jpg")) {
+                        target.src = target.src.replace(".jpg", ".png");
+                    } else {
+                        target.onerror = null; 
+                        target.src = "/images/Plantas-Horto/0placeholder.png";
+                    }
+                }}
+            />
             <p className={`${styles.default} ${styles.indi}`}>Indicação</p>
             <div className={`${styles.default} ${styles.symptoms}`}>
                 {plant.symthoms.map((item, index) => (<span className={styles.symptom} key={index}>{item}</span>))}

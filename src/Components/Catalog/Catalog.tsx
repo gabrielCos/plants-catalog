@@ -20,11 +20,15 @@ const Catalog: React.FC<CatalogProps> = ({ plants, searchTerm }) => {
         setVisibleCount((prevCount) => prevCount + 6);
     }
 
-    const filteredPlants = plants.filter(
-        (plant) => 
-            plant.name.toLocaleLowerCase().includes(lowerCaseSearch) ||
-            plant.symthoms.some(symthom => symthom.toLowerCase().includes(lowerCaseSearch))
-    ).sort((a,b) => a.name.localeCompare(b.name));
+    const filteredPlants = plants
+        .filter((plant) =>
+            plant.name.toLowerCase().includes(lowerCaseSearch) ||
+            plant.symthoms.some(symthom => symthom.toLowerCase().includes(lowerCaseSearch)) ||
+            (plant.otherNames?.some(otherName =>
+                otherName.toLowerCase().includes(lowerCaseSearch)
+                ) ?? false)
+            )
+            .sort((a, b) => a.name.localeCompare(b.name));
 
     return (
         <div>

@@ -38,6 +38,10 @@
     cursor: pointer;
 }
 
+.otherNames {
+    font-family: 'Gabarito';
+}
+
 .backButton span {
     margin-left: 8px;
 }

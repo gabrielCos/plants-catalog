@@ -41,7 +41,10 @@ const PlantSpecific: React.FC = () => {
             </button>
             <div className={styles.plantSpecifContainer}>
                 <div className={styles.columnOne}>
-                    <p className={styles.plantName}>{ plant?.name}</p>
+                    <p className={styles.plantName}>{plant?.name}</p>
+                <div className={styles.otherNames}>
+                    {plant.otherNames?.map((item: string, index: number) => (<span className={styles.otherNames} key={index} >{item} {index < plant.otherNames!.length - 1 ? ', ' : ''}</span>))}
+                </div>
                     <p className={styles.scientificName}>{plant?.scientificName}</p>
                     <img className={styles.imagePlant}
                         src={getImagePath(plant?.name)}

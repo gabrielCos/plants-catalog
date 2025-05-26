@@ -7,6 +7,7 @@ import logoufc from "../../Static/Images/image 345.png"
 import logoloca from "../../Static/Images/Icon local.png";
 import logomessage from "../../Static/Images/Icon message.png";
 import logofone from "../../Static/Images/Icon fone.png";
+import instalogo from "../../Static/Images/instagram.png"
 
 
 const Footer: React.FC = () => {
@@ -27,11 +28,15 @@ const Footer: React.FC = () => {
                 </div>
                 <div className={styles.downData}>
                     <img src={logofone} alt="logo" />
-                    <p>(85)3366-9418</p>
+                    <p>(85)3366-9984</p>
                 </div>
                 <div className={styles.downData}>
                     <img src={logomessage} alt="logo" />
-                    <p>farmaciaviva@ufc.br</p>
+                    <p>farmaciavivaceara@gmail.com</p>
+                </div>
+                <div className={styles.downData}>
+                    <img src={instalogo} alt="logo" />
+                    <p>@farmaciavivaufc</p>
                 </div>
             </div>
         </div>

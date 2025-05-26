@@ -25,7 +25,14 @@ const CatalogItem: React.FC<PlantProps> = ({ plant }) => {
     return (
         <div className={styles.card} onClick={handleClick}>
             <p className={styles.title}>{plant.name}</p>
-            <p className={styles.subtitle}><span className={`${styles.default} ${styles.subtitleLabel}`}>Nome Científico: </span> <span className={styles.cientificName}>{plant.scientificName}</span></p>
+            <div>
+                <span className={`${styles.default} ${styles.subtitleLabel}`}>Outros Nomes: </span>
+                {plant.otherNames?.map((item, index) => (<span className={styles.otherNames} key={index} >{item} {index < plant.otherNames!.length - 1 ? ', ' : ''}</span>))}
+            </div>
+            <div className={styles.subtitle}>
+                <span className={`${styles.default} ${styles.subtitleLabel}`}>Nome Científico: </span>
+                <span className={styles.cientificName}>{plant.scientificName}</span>
+            </div>
             <img src={getImagePath(plant.name)}
                 alt={`Imagem de ${plant.name}`}
                 onError={(e) => {

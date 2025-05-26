@@ -1,6 +1,8 @@
 interface plant {
     id: string;
     name: string;
+    otherNames: string[] | null,
+    description: string | null, 
     scientificName: string; 
     symthoms: string[];
     prepareMode: string;

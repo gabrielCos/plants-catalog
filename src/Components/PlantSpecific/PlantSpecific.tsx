@@ -25,7 +25,7 @@ const PlantSpecific: React.FC = () => {
 
     const getImagePath = (name: String | undefined) => {
         if (!name) return "/images/Plantas-Horto/0placeholder.png";
-        const formattedName = name.replace(/\s+/g, "_").toLowerCase();
+        const formattedName = name.replace(/[\s-]+/g, "_").toLowerCase();
         return `/images/Plantas-Horto/${formattedName}.jpg`;
     }
 

@@ -17,7 +17,7 @@ const Catalog: React.FC<CatalogProps> = ({ plants, searchTerm }) => {
     const lowerCaseSearch = searchTerm.toLowerCase();
 
     const loadMore = () => {
-        setVisibleCount((prevCount) => prevCount + 6);
+        setVisibleCount((prevCount) => prevCount + 3);
     }
 
     const filteredPlants = plants

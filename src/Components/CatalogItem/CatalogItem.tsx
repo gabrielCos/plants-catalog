@@ -18,19 +18,21 @@ const CatalogItem: React.FC<PlantProps> = ({ plant }) => {
 
     const getImagePath = (plantName: String | undefined) => {
         if (!plantName) return "../images/Plantas-Horto/0placeholder.png";
-        const formattedName = plantName.replace(/\s+/g, "_").toLowerCase();
+        const formattedName = plantName
+            .replace(/[\s-]+/g, "_")
+            .toLowerCase();
         return `/images/Plantas-Horto/${formattedName}.jpg`;
     }
 
     return (
         <div className={styles.card} onClick={handleClick}>
             <p className={styles.title}>{plant.name}</p>
-            <div>
-                <span className={`${styles.default} ${styles.subtitleLabel}`}>Outros Nomes: </span>
+            <div className={styles.default}>
+                <span className={styles.subtitleLabel}>Outros Nomes: </span>
                 {plant.otherNames?.map((item, index) => (<span className={styles.otherNames} key={index} >{item} {index < plant.otherNames!.length - 1 ? ', ' : ''}</span>))}
             </div>
-            <div className={styles.subtitle}>
-                <span className={`${styles.default} ${styles.subtitleLabel}`}>Nome Científico: </span>
+            <div className={styles.default}>
+                <span className={`${styles.subtitle} ${styles.subtitleLabel}`}>Nome Científico: </span>
                 <span className={styles.cientificName}>{plant.scientificName}</span>
             </div>
             <img src={getImagePath(plant.name)}

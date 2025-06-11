@@ -21,6 +21,7 @@ const CatalogItem: React.FC<PlantProps> = ({ plant }) => {
         const formattedName = plantName
             .replace(/[\s-]+/g, "_")
             .toLowerCase();
+        //console.log("Imagem gerada:", formattedName);
         return `/images/Plantas-Horto/${formattedName}.jpg`;
     }
 

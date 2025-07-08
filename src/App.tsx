@@ -7,7 +7,7 @@ import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Catalog from './Components/Catalog/Catalog';
 import PlantSpecific from './Components/PlantSpecific/PlantSpecific';
-import UploadPlants from './Script/uploadfiles';
+//import UploadPlants from './Script/uploadfiles';
 
 import getPlants from './Data/Data';
 import Plant from "./Interfaces/plant"

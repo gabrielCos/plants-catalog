@@ -7,6 +7,7 @@ import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
 import Catalog from './Components/Catalog/Catalog';
 import PlantSpecific from './Components/PlantSpecific/PlantSpecific';
+import Sobre from './Components/Sobre/Sobre';
 //import UploadPlants from './Script/uploadfiles';
 
 import getPlants from './Data/Data';
@@ -31,6 +32,7 @@ const App: React.FC = () => {
           <Routes>
             <Route path='/' element={<Catalog plants={plants} searchTerm={searchTerm} />} />
             <Route path="/plant/:plantName" element={<PlantSpecific />} />
+          <Route path='/sobre' element={<Sobre/>} />
           </Routes>
           <Footer />
         </div>

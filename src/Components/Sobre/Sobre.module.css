@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Gabarito';
+  src: url(../../Static/Fonts/Gabarito-VariableFont_wght.ttf);
+}
+
+.aboutContainer {
+    width: 98%;
+    height: 80vh;
+    margin-left: 16px;
+}
+
+.aboutText {
+    font-family: 'Gabarito';
+}

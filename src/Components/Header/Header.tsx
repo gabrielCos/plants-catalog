@@ -50,7 +50,7 @@ const Header: React.FC<HeaderProps> = ({ onSearch }) => {
                         </div>
                         <p className={styles.title}>Herbarium Digital </p>
                         <p className={styles.option} onClick={() => navigate("/")}>Catálogo</p>
-                        <p className={styles.option}>Sobre</p>
+                        <p className={styles.option} onClick={() => navigate("/sobre")}>Sobre</p>
                     </div>
                     {!isMobile && <SearchBar onSearch={onSearch} />}
                     {isMobile && <MenuOutlined className={styles.menuIcon} onClick={handleMenuMobile}/>}

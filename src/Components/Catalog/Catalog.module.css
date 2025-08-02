@@ -3,6 +3,11 @@
   src: url(../../Static/Fonts/Gabarito-VariableFont_wght.ttf);
 }
 
+.warning{
+  font-family: 'Gabarito';
+  color: red;
+  font-size: 36px;
+}
 .catalog {
     display: flex;
     flex-wrap: wrap;

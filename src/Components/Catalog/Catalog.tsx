@@ -33,6 +33,7 @@ const Catalog: React.FC<CatalogProps> = ({ plants, searchTerm }) => {
 
     return (
         <div>
+            <p className={styles.warning}>O catálogo ainda precisa de revisão de suas informações!</p>
             <div className={styles.catalog}>
                 {filteredPlants.slice(0,visibleCount).map((plant, index) => (
                     <CatalogItem key={index} plant={plant} />

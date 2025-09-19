@@ -5,6 +5,8 @@ import styles from "./PlantSpecific.module.css";
 
 import getPlants from "../../Data/Data";
 
+import DetalesCard from "../DetalesCard/DetalesCard";
+
 import { ArrowLeftOutlined } from '@ant-design/icons';
 
 const PlantSpecific: React.FC = () => {
@@ -66,35 +68,8 @@ const PlantSpecific: React.FC = () => {
                         ))}
                     </div>
                 </div>
-                <div className={styles.columnTwo}>
-                    <div className={styles.prepareContainer}>
-                        <div className={styles.instructions}>
-                            <p className={styles.instructionsLabel}>Modo de preparo</p>
-                            <p className={styles.instructionsTitle}>{plant?.prepareMode} de {plant?.name}</p>
-                            <p className={styles.ingredientsLable}>Ingredientes:</p>
-                            <ul className={styles.ingredients}>
-                                {plant?.Ingridients.map((ingrient: string, index: number) => (
-                                    <li key={index}>{ingrient}</li>
-                                ))}
-                            </ul>
-                            <p className={styles.ingredientsLable}>Passos:</p>
-                            <ol className={styles.ingredients}>
-                                {plant?.HowToDo.map((step: string, index: number) => (
-                                    <li key={index}>{step}</li>
-                                ))}
-                            </ol>
-                            <p className={styles.ingredientsLable}>Recomendação de Uso:</p>
-                            <p className={styles.use}>{ plant?.useRecomendation}</p>
-                        </div>
-                    </div>
-                    <div className={styles.prepareContainer}>
-                        <div className={styles.instructions}>
-                            <p className={styles.contraindicationLabel}>Contra indicações</p>
-                            {plant?.contraindication.map((item: string, index:number) => (
-                                <p key={index} className={styles.contraindications}>{item}</p>
-                            ))}
-                        </div>
-                    </div>
+                <div>
+                  <DetalesCard plant={plant}/>
                 </div>
             </div>
         </div>

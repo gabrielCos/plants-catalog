@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'Gabarito-Semi-Bold';
+    src: url(../../Static/Fonts/Gabarito-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Gabarito-bold';
+    src: url(../../Static/Fonts/Gabarito-Bold-BF651cdf1f430c1.ttf);
+}
+
+@font-face {
+    font-family: 'Gabarito';
+    src: url(../../Static/Fonts/Gabarito-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Fraunces';
+    src: url(../../Static/Fonts/Fraunces-Italic-VariableFont.ttf);
+}
+
+.detalesContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    background-color: rgba(0,0,0, .1);
+    width: 42vw;
+    height: auto;
+    border-radius: 24px;
+    margin-bottom: 16px;
+}
+
+.instructions {
+    margin: 32px 0 32px 32px ;
+}
+
+.instructionsLabel {
+    font-family: 'Gabarito';
+    font-size: 16px;
+    color: rgba(0,0,0, .5);
+}
+
+.instructionsTitle {
+    font-family: 'Gabarito-Semi-Bold';
+    font-size: 16px;
+    color: rgba(0,0,0, .7);
+}
+
+.ingredientsLable {
+    font-family: 'Gabarito-Semi-Bold';
+    font-size: 14px;
+    color: rgba(0,0,0, .7);
+    margin-bottom: 8px;
+}
+
+.ingredients {
+    margin: 0;
+    padding: 0;
+    padding-left: 16px;
+    font-family: 'Gabarito';
+    font-size: 14px;
+    color: rgba(0,0,0, .7);
+    margin-bottom: 24px;
+}
+
+.use {
+    font-family: 'Gabarito';
+    font-size: 14px;
+    color: rgba(0,0,0, .7);
+    margin-top: 16px;
+}
+
+.contraindicationLabel {
+    font-family: 'Gabarito-Semi-Bold';
+    font-size: 16px;
+    color: rgba(0,0,0, .7);
+}
+
+.contraindications {
+    font-family: 'Gabarito';
+    font-size: 14px;
+    color: rgba(0,0,0, .7);
+}
+
+@media only screen and (max-width: 1280px) {
+    .prepareContainer {
+        width: 100%;
+        height: auto;
+    }
+}

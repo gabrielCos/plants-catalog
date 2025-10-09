@@ -1,0 +1,1346 @@
+[
+  {
+    "id": "1-1",
+    "plantId": "1",
+    "title": "Receita 1 com Açafrão-da-Terra",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Consumir morno, nunca gelado"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "1-2",
+    "plantId": "1",
+    "title": "Receita 2 com Açafrão-da-Terra",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Não exceder 3 xícaras por dia"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "2-1",
+    "plantId": "2",
+    "title": "Receita 1 com Agrião-Bravo",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Agitar bem antes de beber"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "2-2",
+    "plantId": "2",
+    "title": "Receita 2 com Agrião-Bravo",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Ideal para consumo à noite"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "3-1",
+    "plantId": "3",
+    "title": "Receita 1 com Alecrim-Pimenta",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Evitar o uso contínuo por mais de 7 dias"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "3-2",
+    "plantId": "3",
+    "title": "Receita 2 com Alecrim-Pimenta",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Pode ser usado topicamente diluído"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "4-1",
+    "plantId": "4",
+    "title": "Receita 1 com Alfavaca-Cravo",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Recomendado para o preparo de compressas"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "4-2",
+    "plantId": "4",
+    "title": "Receita 2 com Alfavaca-Cravo",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Beber imediatamente após o preparo"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "5-1",
+    "plantId": "5",
+    "title": "Receita 1 com Aroeira",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Pode ser adoçado com mel"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "5-2",
+    "plantId": "5",
+    "title": "Receita 2 com Aroeira",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementas",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Não reaquecer a sobra"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "6-1",
+    "plantId": "6",
+    "title": "Receita 1 com Babosa",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Utilizar sempre coado"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "6-2",
+    "plantId": "6",
+    "title": "Receita 2 com Babosa",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Armazenar em recipiente de vidro escuro"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "7-1",
+    "plantId": "7",
+    "title": "Receita 1 com Cajazeira",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Em caso de dúvidas, consulte um especialista"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "7-2",
+    "plantId": "7",
+    "title": "Receita 2 com Cajazeira",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Evitar misturar com bebidas alcoólicas"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "8-1",
+    "plantId": "8",
+    "title": "Receita 1 com Capim-Santo",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Pode ser consumido frio (chá gelado)"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "8-2",
+    "plantId": "8",
+    "title": "Receita 2 com Capim-Santo",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Ideal para relaxamento antes de dormir"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "9-1",
+    "plantId": "9",
+    "title": "Receita 1 com Colônia",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Guardar em local fresco e seco"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "9-2",
+    "plantId": "9",
+    "title": "Receita 2 com Colônia",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Excelente para inalação de vapor"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "10-1",
+    "plantId": "10",
+    "title": "Receita 1 com Confrei",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Usar preferencialmente em jejum"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "10-2",
+    "plantId": "10",
+    "title": "Receita 2 com Confrei",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Evitar adoçar para maior eficácia"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "11-1",
+    "plantId": "11",
+    "title": "Receita 1 com Cumaru",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Pode ser misturado com sucos naturais"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "11-2",
+    "plantId": "11",
+    "title": "Receita 2 com Cumaru",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Evitar o consumo por crianças"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "12-1",
+    "plantId": "12",
+    "title": "Receita 1 com Erva-Cidreira",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Tomar até duas vezes ao dia"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "12-2",
+    "plantId": "12",
+    "title": "Receita 2 com Erva-Cidreira",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Pode ser usado para escalda-pés"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "13-1",
+    "plantId": "13",
+    "title": "Receita 1 com Eucalipto",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Fazer um teste de alergia antes do uso tópico"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "13-2",
+    "plantId": "13",
+    "title": "Receita 2 com Eucalipto",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Evitar contato direto com os olhos"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "14-1",
+    "plantId": "14",
+    "title": "Receita 1 com Gengibre",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Adicionar uma rodela de limão para potencializar"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "14-2",
+    "plantId": "14",
+    "title": "Receita 2 com Gengibre",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Não consumir mais de 1 litro ao dia"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "15-1",
+    "plantId": "15",
+    "title": "Receita 1 com Goiabeira-Vermelha",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Ideal para gargarejos e bochechos"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "15-2",
+    "plantId": "15",
+    "title": "Receita 2 com Goiabeira-Vermelha",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Descartar após 24 horas do preparo"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "16-1",
+    "plantId": "16",
+    "title": "Receita 1 com Guaco",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Pode causar sonolência, evitar dirigir"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "16-2",
+    "plantId": "16",
+    "title": "Receita 2 com Guaco",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Ajustar a dose sob orientação médica"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "17-1",
+    "plantId": "17",
+    "title": "Receita 1 com Hortelã Japonesa",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Ideal para dias quentes como bebida refrescante"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "17-2",
+    "plantId": "17",
+    "title": "Receita 2 com Hortelã Japonesa",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Pode ser usado em vaporização facial"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "18-1",
+    "plantId": "18",
+    "title": "Receita 1 com Hortelã-Rasteira",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Melhor efeito se consumido ao natural"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "18-2",
+    "plantId": "18",
+    "title": "Receita 2 com Hortelã-Rasteira",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Utilizar em até 6 horas após o preparo"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "19-1",
+    "plantId": "19",
+    "title": "Receita 1 com Malva-Santa",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Ideal para compressas frias"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "19-2",
+    "plantId": "19",
+    "title": "Receita 2 com Malva-Santa",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Consumir em pequenos goles"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "20-1",
+    "plantId": "20",
+    "title": "Receita 1 com Malvarisco",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Utilizar somente a folha fresca"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "20-2",
+    "plantId": "20",
+    "title": "Receita 2 com Malvarisco",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Não ingerir o bagaço"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "21-1",
+    "plantId": "21",
+    "title": "Receita 1 com Maracujá",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Ideal para combater a insônia"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "21-2",
+    "plantId": "21",
+    "title": "Receita 2 com Maracujá",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Pode ser combinado com camomila"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "22-1",
+    "plantId": "22",
+    "title": "Receita 1 com Mastruço",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Uso externo também é recomendado"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "22-2",
+    "plantId": "22",
+    "title": "Receita 2 com Mastruço",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Evitar contato com feridas abertas"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "23-1",
+    "plantId": "23",
+    "title": "Receita 1 com Melão-de-São-Caetano",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Utilizar água filtrada ou mineral"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "23-2",
+    "plantId": "23",
+    "title": "Receita 2 com Melão-de-São-Caetano",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Preparar em louça ou vidro"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "25-1",
+    "plantId": "25",
+    "title": "Receita 1 com Mentrasto",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Evitar para pessoas com pressão baixa"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "25-2",
+    "plantId": "25",
+    "title": "Receita 2 com Mentrasto",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Não usar a longo prazo"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "26-1",
+    "plantId": "26",
+    "title": "Receita 1 com Mororó",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Pode ser usado para banho de assento"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "26-2",
+    "plantId": "26",
+    "title": "Receita 2 com Mororó",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Não guardar por mais de 8 horas"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "27-1",
+    "plantId": "27",
+    "title": "Receita 1 com Pau-d'arco",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Não misturar com medicamentos anticoagulantes"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "27-2",
+    "plantId": "27",
+    "title": "Receita 2 com Pau-d'arco",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Pode ter sabor amargo; utilize adoçante natural"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "28-1",
+    "plantId": "28",
+    "title": "Receita 1 com Quebra-Pedra",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Beber muita água durante o tratamento"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "28-2",
+    "plantId": "28",
+    "title": "Receita 2 com Quebra-Pedra",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Pode ser combinado com suco de laranja"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "30-1",
+    "plantId": "30",
+    "title": "Receita 1 com Romã",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Gargarejar para alívio da garganta"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  },
+  {
+    "id": "30-2",
+    "plantId": "30",
+    "title": "Receita 2 com Romã",
+    "prepareMode": "infusão",
+    "partUsed": "sementes",
+    "ingredients": [
+      "sementes de erva-doce",
+      "água"
+    ],
+    "howToDo": [
+      "Ferver a água",
+      "Adicionar as sementes",
+      "Deixar em infusão por 10 min"
+    ],
+    "useRecommendations": [
+      "Tomar após as refeições",
+      "Descartar o resíduo sólido antes de consumir"
+    ],
+    "contraindications": [
+      "grávidas",
+      "alérgicos a apiáceas"
+    ]
+  }
+]

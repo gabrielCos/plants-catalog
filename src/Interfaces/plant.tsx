@@ -1,18 +1,17 @@
-interface plant {
+import detales from "./detales";
+
+interface Plant {
     id: string;
     name: string;
-    otherNames: string[] | null,
-    description: string | null, 
+    otherNames?: string[],
+    description?: string, 
     scientificName: string; 
-    symthoms: string[];
-    prepareMode: string;
-    partUsed: string;
-    Ingridients: string[];
-    HowToDo: string[];
-    useRecomendation: string;
-    contraindication: string[]
+    symptoms: string[];
+    detales: detales[];
 }
 
-export default plant;
+
+
+export default Plant;
 
 

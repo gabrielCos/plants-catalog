@@ -1,0 +1,380 @@
+[
+  {
+    "id": "1",
+    "name": "Açafrão-da-Terra",
+    "otherNames": [
+      "capim-cidrão, capim-cidreira, capim-limão"
+    ],
+    "description": "",
+    "scientificName": "Cymbopogon citratus",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Agrião-Bravo",
+    "otherNames": [
+      "capim-cidrão, capim-cidreira, capim-limão"
+    ],
+    "description": "",
+    "scientificName": "Cymbopogon citratus",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Alecrim-Pimenta",
+    "otherNames": [
+      "capim-cidrão, capim-cidreira, capim-limão"
+    ],
+    "description": "",
+    "scientificName": "Cymbopogon citratus",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Alfavaca-Cravo",
+    "otherNames": [
+      "capim-cidrão, capim-cidreira, capim-limão"
+    ],
+    "description": "",
+    "scientificName": "Cymbopogon citratus",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "5",
+    "name": "Aroeira",
+    "otherNames": [
+      "capim-cidrão, capim-cidreira, capim-limão"
+    ],
+    "description": "",
+    "scientificName": "Cymbopogon citratus",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "6",
+    "name": "Babosa",
+    "otherNames": [
+      "capim-cidrão, capim-cidreira, capim-limão"
+    ],
+    "description": "",
+    "scientificName": "Cymbopogon citratus",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "7",
+    "name": "Cajazeira",
+    "otherNames": [
+      "capim-cidrão, capim-cidreira, capim-limão"
+    ],
+    "description": "",
+    "scientificName": "Cymbopogon citratus",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "8",
+    "name": "Capim-Santo",
+    "otherNames": [
+      "capim-cidrão, capim-cidreira, capim-limão"
+    ],
+    "description": "",
+    "scientificName": "Cymbopogon citratus",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "9",
+    "name": "Colônia",
+    "otherNames": [
+      "jardineira",
+      "vindicá"
+    ],
+    "description": "",
+    "scientificName": "Alpinia zerumbet",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "10",
+    "name": "Confrei",
+    "otherNames": [
+      "consóolida"
+    ],
+    "description": "",
+    "scientificName": "Symphytum officiale",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "11",
+    "name": "Cumaru",
+    "otherNames": [
+      "amburana",
+      "imburana-de-cheiro"
+    ],
+    "description": "",
+    "scientificName": "Amburana cearensis",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "12",
+    "name": "Erva-Cidreira",
+    "otherNames": [
+      "cidreira carmelita",
+      "falsa-melissa"
+    ],
+    "description": "",
+    "scientificName": "Lippia alba",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "13",
+    "name": "Eucalipto",
+    "otherNames": [
+      "eucalipto-medicial-do-nordeste"
+    ],
+    "description": "",
+    "scientificName": "Eucalyptus tereticorns",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "14",
+    "name": "Gengibre",
+    "otherNames": [
+      ""
+    ],
+    "description": "",
+    "scientificName": "Zingiber officiale ",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "15",
+    "name": "Goiabeira-Vermelha",
+    "otherNames": [
+      ""
+    ],
+    "description": "",
+    "scientificName": "Psidium guajava",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "16",
+    "name": "Guaco",
+    "otherNames": [
+      ""
+    ],
+    "description": "",
+    "scientificName": "Mikania glomerata",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "17",
+    "name": "Hortelã Japonesa",
+    "otherNames": [
+      "hortelã-do-brasil",
+      "vique"
+    ],
+    "description": "",
+    "scientificName": "Mentha arvensis",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "18",
+    "name": "Hortelã-Rasteira",
+    "otherNames": [
+      "hortelã-comum",
+      "hortelã-de-panela"
+    ],
+    "description": "",
+    "scientificName": "Mentha arvensis",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "19",
+    "name": "Malva-Santa",
+    "otherNames": [
+      "sete-dores",
+      "boldo-nacional"
+    ],
+    "description": "",
+    "scientificName": "Plectranthus barbatus",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "20",
+    "name": "Malvarisco",
+    "otherNames": [
+      "malvariço",
+      "malva",
+      "hortelã-grande"
+    ],
+    "description": "",
+    "scientificName": "Plectranthus amboinicus",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "21",
+    "name": "Maracujá",
+    "otherNames": [
+      "maracujá-peroba"
+    ],
+    "description": "",
+    "scientificName": "Passiflora edulis",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "22",
+    "name": "Mastruço",
+    "otherNames": [
+      "mentrus",
+      "mantruz",
+      "erva-santa-maria"
+    ],
+    "description": "",
+    "scientificName": "Chenopodium ambrosioides",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "23",
+    "name": "Melão-de-São-Caetano",
+    "otherNames": [
+      ""
+    ],
+    "description": "",
+    "scientificName": "Momordica charantia",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "25",
+    "name": "Mentrasto",
+    "otherNames": [
+      "erva-de-são-joão",
+      "catinga-de-bode"
+    ],
+    "description": "",
+    "scientificName": "Ageratum conyzoides",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "26",
+    "name": "Mororó",
+    "otherNames": [
+      "miroró",
+      "unha-de-vaca"
+    ],
+    "description": "",
+    "scientificName": "Bauhinia ungultata",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "27",
+    "name": "Pau-d'arco",
+    "otherNames": [
+      "ipê",
+      "ipê-roxo",
+      "ipê-amarelo"
+    ],
+    "description": "",
+    "scientificName": "Tabeluia avellanedeae",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "28",
+    "name": "Quebra-Pedra",
+    "otherNames": [
+      "erva-pombinha"
+    ],
+    "description": "",
+    "scientificName": "Phyllantus amarus Schum",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  },
+  {
+    "id": "30",
+    "name": "Romã",
+    "otherNames": [
+      ""
+    ],
+    "description": "",
+    "scientificName": "Punica granatum",
+    "symptoms": [
+      "cólica",
+      "má digestão"
+    ]
+  }
+]

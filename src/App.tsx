@@ -8,7 +8,7 @@ import Footer from './Components/Footer/Footer';
 import Catalog from './Components/Catalog/Catalog';
 import PlantSpecific from './Components/PlantSpecific/PlantSpecific';
 import Sobre from './Components/Sobre/Sobre';
-//import UploadPlants from './Script/uploadfiles';
+import UploadPlants from './Script/uploadfiles';
 
 import getPlants from './Data/Data';
 import Plant from "./Interfaces/plant"
@@ -24,8 +24,8 @@ const App: React.FC = () => {
     };
     fetchPlants();
 }, []);
-  //return <UploadPlants />;
-  return (
+  return <UploadPlants />;
+  {/*return (
     <Router>
         <div className="App">
           <Header onSearch={setSearchTerm} />
@@ -38,7 +38,7 @@ const App: React.FC = () => {
         </div>
       
     </Router>
-  );
+  );*/}
 }
 
 export default App;

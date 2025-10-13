@@ -50,17 +50,7 @@ const CatalogItem: React.FC<PlantProps> = ({ plant }) => {
             />
             <p className={`${styles.default} ${styles.indi}`}>Indicação</p>
             <div className={`${styles.default} ${styles.symptoms}`}>
-                {plant.symthoms.map((item, index) => (<span className={styles.symptom} key={index}>{item}</span>))}
-            </div>
-            <div className={`${styles.default} ${styles.sugpul}`}>
-                <div>
-                    <p className={styles.suglabel}>Sugestão de uso</p>
-                    <span className={styles.use}>{plant.prepareMode}</span>
-                </div>
-                <div>
-                    <p className={styles.suglabel}>Parte Utilizada</p>
-                    <span className={styles.use}>{plant.partUsed}</span>
-                </div>
+                {plant.symptoms.map((item, index) => (<span className={styles.symptom} key={index}>{item}</span>))}
             </div>
         </div>
     )

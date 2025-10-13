@@ -85,7 +85,7 @@
 }
 
 .indications {
-    font-family: 'Gabarito-Semi-Bold';
+    font-family: 'Gabarito';
     color: #0E4904;
     background-color: rgba(21, 128, 2, .15);
     margin-right: 8px;
@@ -101,10 +101,5 @@
         flex-direction: column;
         margin: 0 24px 42px 42px;
         justify-content: center;
-    }
-    .prepareContainer {
-        width: 100%;
-        height: auto;
-    }
-    
+    }    
 }

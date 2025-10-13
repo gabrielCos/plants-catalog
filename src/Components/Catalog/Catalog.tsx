@@ -24,7 +24,7 @@ const Catalog: React.FC<CatalogProps> = ({ plants, searchTerm }) => {
         .filter((plant) =>
             plant.name.toLowerCase().includes(lowerCaseSearch) ||
             plant.scientificName.toLowerCase().includes(lowerCaseSearch) ||
-            plant.symthoms.some(symthom => symthom.toLowerCase().includes(lowerCaseSearch)) ||
+            plant.symptoms.some(symthom => symthom.toLowerCase().includes(lowerCaseSearch)) ||
             (plant.otherNames?.some(otherName =>
                 otherName.toLowerCase().includes(lowerCaseSearch)
                 ) ?? false)

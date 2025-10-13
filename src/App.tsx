@@ -8,8 +8,8 @@ import Footer from './Components/Footer/Footer';
 import Catalog from './Components/Catalog/Catalog';
 import PlantSpecific from './Components/PlantSpecific/PlantSpecific';
 import Sobre from './Components/Sobre/Sobre';
-import UploadPlants from './Script/uploadfiles';
-import PopulateDetalesInPlants from "./Script/populateDetales"
+//import UploadPlants from './Script/uploadfiles';
+//import PopulateDetalesInPlants from "./Script/populateDetales"
 
 import getPlants from './Data/Data';
 import Plant from "./Interfaces/plant"

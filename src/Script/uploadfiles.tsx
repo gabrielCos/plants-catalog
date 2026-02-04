@@ -21,7 +21,7 @@ const UploadData: React.FC = () => {
         const plantsRef = collection(db, "plants");
         const detalesRef = collection(db, "detales");
 
-        // 🔹 Upload das plantas
+        //  Upload das plantas
         console.log("🌿 Enviando plantas...");
         for (const plant of plantsData as Plant[]) {
           const docRef = doc(plantsRef, plant.id);
@@ -29,7 +29,7 @@ const UploadData: React.FC = () => {
         }
         console.log("✅ Todas as plantas foram enviadas!");
 
-        // 🔹 Upload dos detalhes
+        //  Upload dos detalhes
         console.log("🍵 Enviando receitas (detales)...");
         for (const detale of detalesData as Detales[]) {
           const docRef = doc(detalesRef, detale.id);

@@ -3,13 +3,13 @@
     "id": "1",
     "name": "Açafrão-da-Terra",
     "otherNames": [
-      "capim-cidrão, capim-cidreira, capim-limão"
+      "açãfrão-da-índia, cúrcuma"
     ],
     "description": "",
-    "scientificName": "Cymbopogon citratus",
+    "scientificName": "Curcuma longa",
     "symptoms": [
-      "cólica",
-      "má digestão"
+      "prisão de ventre",
+      "colesterol alto"
     ]
   },
   {
@@ -21,73 +21,79 @@
     "description": "",
     "scientificName": "Cymbopogon citratus",
     "symptoms": [
-      "cólica",
-      "má digestão"
+      "dor de dente",
+      "ferimentos bocais"
     ]
   },
   {
     "id": "3",
     "name": "Alecrim-Pimenta",
     "otherNames": [
-      "capim-cidrão, capim-cidreira, capim-limão"
+      "estrepa-cavalo"
     ],
     "description": "",
-    "scientificName": "Cymbopogon citratus",
+    "scientificName": "Lippia sidoides",
     "symptoms": [
-      "cólica",
-      "má digestão"
+      "antisséptico",
+      "antimicrobiano"
     ]
   },
   {
     "id": "4",
     "name": "Alfavaca-Cravo",
     "otherNames": [
-      "capim-cidrão, capim-cidreira, capim-limão"
+      ""
     ],
     "description": "",
-    "scientificName": "Cymbopogon citratus",
+    "scientificName": "Ocimum gratissimum",
     "symptoms": [
-      "cólica",
-      "má digestão"
+      "problemas respiratórios",
+      "prisão de ventre"
     ]
   },
   {
     "id": "5",
     "name": "Aroeira",
     "otherNames": [
-      "capim-cidrão, capim-cidreira, capim-limão"
+      "aroeira-do-sertão, urundeúva"
     ],
     "description": "",
-    "scientificName": "Cymbopogon citratus",
+    "scientificName": "Myracrodruom urundeuva",
     "symptoms": [
-      "cólica",
-      "má digestão"
+      "cicatrizante",
+      "anti-inflamatório",
+      "antimicrobiano",
+      "gastrite",
+      "dores"
     ]
   },
   {
     "id": "6",
     "name": "Babosa",
     "otherNames": [
-      "capim-cidrão, capim-cidreira, capim-limão"
+      "aloés"
     ],
     "description": "",
-    "scientificName": "Cymbopogon citratus",
+    "scientificName": "Aloe vera",
     "symptoms": [
-      "cólica",
-      "má digestão"
+      "cicatrização de feridas",
+      "laxante",
+      "tratos dos cabelos"
     ]
   },
   {
     "id": "7",
     "name": "Cajazeira",
     "otherNames": [
-      "capim-cidrão, capim-cidreira, capim-limão"
+      "taperebá"
     ],
     "description": "",
-    "scientificName": "Cymbopogon citratus",
+    "scientificName": "Spondias mombim",
     "symptoms": [
-      "cólica",
-      "má digestão"
+      "inflamações",
+      "infecções",
+      "diarreias",
+      "suplemento de vitaminas"
     ]
   },
   {
@@ -113,8 +119,9 @@
     "description": "",
     "scientificName": "Alpinia zerumbet",
     "symptoms": [
-      "cólica",
-      "má digestão"
+      "estresse",
+      "ansiedade",
+      "digestão"
     ]
   },
   {
@@ -126,8 +133,7 @@
     "description": "",
     "scientificName": "Symphytum officiale",
     "symptoms": [
-      "cólica",
-      "má digestão"
+      "anti-inflamatório"
     ]
   },
   {
@@ -140,8 +146,11 @@
     "description": "",
     "scientificName": "Amburana cearensis",
     "symptoms": [
-      "cólica",
-      "má digestão"
+      "anti-inflamatório",
+      "anticoagulantes",
+      "antiasmáticas",
+      "tosse",
+      "bronquite"
     ]
   },
   {
@@ -167,8 +176,10 @@
     "description": "",
     "scientificName": "Eucalyptus tereticorns",
     "symptoms": [
-      "cólica",
-      "má digestão"
+      "gripes",
+      "tosse",
+      "bronquite",
+      "alívio de dores"
     ]
   },
   {
@@ -180,8 +191,11 @@
     "description": "",
     "scientificName": "Zingiber officiale ",
     "symptoms": [
-      "cólica",
-      "má digestão"
+      "náuseas",
+      "inflamações",
+      "dores",
+      "digestão",
+      "antioxidantes"
     ]
   },
   {
